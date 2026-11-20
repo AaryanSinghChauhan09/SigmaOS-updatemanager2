@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-updatemanager2"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Update manager (second implementation) for SigmaOS package and system updates"
+upstream = []
+
+[contract]
+provides = ["component"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
